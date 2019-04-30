@@ -121,6 +121,14 @@ nav ul li a:hover{
     color: rgba(255, 221, 90, .75);
 }
 
+footer {
+    width: 85%;
+    margin: auto; 
+    float: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
 @media screen and (max-width:1000px) {
     nav a#hamburger div {
         display: block;
