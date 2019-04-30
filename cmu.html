@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hamburger Menu</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="demo starter, html, css">
+        <meta name="description" content="Demo starter for new html and css projects">
+        <link href="https://fonts.googleapis.com/css?family=Chivo|Knewave" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $("#hamburger").click(function(){
+                    $("nav ul").toggleClass('visible');
+                    $("#hamburger").toggleClass('x');
+                })
+            })
+        </script>
+
+
+    </head>
+    <body>
+        <!--        <h1>Hamburger Menu</h1>-->
+        <nav>
+            <!--
+<a href="#" id="hamburger">
+<div></div>
+<div></div>
+<div></div>
+</a>
+-->
+            <ul>
+                <li style="padding-left: 50px"><a href="index.html"><img src="logo.png" height="40px"></a></li>
+                <li style="padding-top: 15px; padding-left: 40%"><a href="index.html">What is composting?</a></li>
+                <li style="padding-top: 15px"><a href="cmu.html" class="active" >Composting @ CMU</a></li>
+                <li style="padding-top: 15px"><a href="get-involved.html">How can I help?</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Getting down and dirty—</h1>
+            <section>
+                <p>Carnegie Mellon aims to raise <span style="color: rgba(42, 179, 83, .6)">awareness</span> and <span style="color: rgba(42, 179, 83, .6)">environmentally-friendly</span> behavior within the campus community. To this end, CMU Dining Service and AgRecycle are actively working with the school’s food vendors to place composting bins around eating areas. Currently, there are composting bins at <span style="color: rgba(42, 179, 83, .6)">Schatz, The Underground, Resnik,</span> and the <span style="color: rgba(42, 179, 83, .6)">Tepper Quad.</span> From workers—who are encouraged to compost waste as they cook—to the student body, everyone can pitch in. CMU is also in the process of switching from plastic products to compostable products, so that plates, utensils, and cups will be able to be responsibly thrown away.
+                </p>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hamburger Menu</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="demo starter, html, css">
+        <meta name="description" content="Demo starter for new html and css projects">
+        <link href="https://fonts.googleapis.com/css?family=Chivo|Knewave" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $("#hamburger").click(function(){
+                    $("nav ul").toggleClass('visible');
+                    $("#hamburger").toggleClass('x');
+                })
+            })
+        </script>
+
+
+    </head>
+    <body>
+        <!--        <h1>Hamburger Menu</h1>-->
+        <nav>
+            <!--
+<a href="#" id="hamburger">
+<div></div>
+<div></div>
+<div></div>
+</a>
+-->
+            <ul>
+                <li style="padding-left: 50px"><a href="index.html"><img src="logo.png" height="40px"></a></li>
+                <li style="padding-top: 15px; padding-left: 40%"><a href="index.html" class="active">What is composting?</a></li>
+                <li style="padding-top: 15px"><a href="cmu.html" >Composting @ CMU</a></li>
+                <li style="padding-top: 15px"><a href="get-involved.html">How can I help?</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>The break down—</h1>
+            <section>
+                <p>Composting is the process of recycling organic material, and it’s one of the best ways to support sustainable growth. In order for this to work, composting services need a mix of <span style="color: rgba(137, 91, 40, .51)">“brown waste”</span> and <span style="color: rgba(42, 179, 83, .6)">“green waste,”</span> which supply the carbon and nitrogen that drive the cycle. This material comes from food waste, leaves and grass, and compostable paper and plastic products that will decompose and boost the nutrition of the soil.</p>
+                <p>The act of composting not only helps with erosion and the reconstruction of wetlands and bodies of water, but is also used as a fertilizer, pesticide, and conditioner for the soil around. It’s often used to help the growth of <span style="color: rgba(241, 95, 83, .7)">fruits,</span> <span style="color: rgba(42, 179, 83, .6)">vegetables,</span> and other <span style="color: rgba(42, 179, 83, .6)">plants.</span> As an economic and social factor, composting helps to extend the current landfill timespan and stop construction of ones that can be detrimental to our environment. It also reduces the unnecessary cost of transportation and “waste-disposal fees.” These small changes make a <b>world</b> of difference when it comes to the health of our Earth. 
+                </p>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hamburger Menu</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="demo starter, html, css">
+        <meta name="description" content="Demo starter for new html and css projects">
+        <link href="https://fonts.googleapis.com/css?family=Chivo|Knewave" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $("#hamburger").click(function(){
+                    $("nav ul").toggleClass('visible');
+                    $("#hamburger").toggleClass('x');
+                })
+            })
+        </script>
+
+
+    </head>
+    <body>
+        <!--        <h1>Hamburger Menu</h1>-->
+        <nav>
+            <!--
+<a href="#" id="hamburger">
+<div></div>
+<div></div>
+<div></div>
+</a>
+-->
+            <ul>
+                <li style="padding-left: 50px"><a href="index.html"><img src="logo.png" height="40px"></a></li>
+                <li style="padding-top: 15px; padding-left: 40%"><a href="index.html">What is composting?</a></li>
+                <li style="padding-top: 15px"><a href="cmu.html" >Composting @ CMU</a></li>
+                <li style="padding-top: 15px"><a href="get-involved.html" class="active">How can I help?</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Fill the land, not landfills—</h1>
+            <section>
+                <p>As a student, be on the lookout for any composting bins around your area, and try to use them whenever you have the opportunity to. Guides are scattered around each dining area to help identify which items are compostable, and which aren't. Together, we can become a <span style="color: rgba(42, 179, 83, .6)">greener, cleaner</span> campus. <span style="color: rgba(241, 95, 83, .7)">Don’t waste your waste!</span>
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
