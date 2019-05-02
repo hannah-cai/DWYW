@@ -122,6 +122,14 @@ html * {
     mix-blend-mode: darken;
 }
 
+#logo {
+    opacity: 0.75;
+}
+
+#logo:hover {
+    opacity: 1;
+}
+
 main {
     line-height: 1.5;
 }
