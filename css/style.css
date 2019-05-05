@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
@@ -55,57 +55,57 @@ table {
 
 /*
 @keyframes fade {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+0% {
+opacity: 1;
+}
+50% {
+opacity: 1;
+}
+100% {
+opacity: 0;
+}
 }
 */
 
 /*
 #logo {
-    transition: all 2s ease;
+transition: all 2s ease;
 }
 
 #logo-background {
-    background-color: rgb(250, 248, 238);
-    height: 120%; 
-    width: 100%;
-    display: block; 
-    margin: auto; 
-    float: center; 
-    text-align: center; 
-    position: absolute; 
-    opacity: 0;
+background-color: rgb(250, 248, 238);
+height: 120%; 
+width: 100%;
+display: block; 
+margin: auto; 
+float: center; 
+text-align: center; 
+position: absolute; 
+opacity: 0;
 }
 
 .invisible {
-    background-color: rgba(250, 248, 238, 0);
+background-color: rgba(250, 248, 238, 0);
 }
 
 .big {
-    z-index: 2; 
-    transition: all 2s ease;
-    height: 100px;
-    margin-top: 25%;
+z-index: 2; 
+transition: all 2s ease;
+height: 100px;
+margin-top: 25%;
 }
 */
 
 /*
 .big:hover {
-    background-color: aqua;
+background-color: aqua;
 }
 */
 
 /*
 .small {
-    height: 40px;
-    padding-left: 50px;
+height: 40px;
+padding-left: 50px;
 }
 */
 
@@ -119,7 +119,7 @@ html * {
     box-sizing:content-box;
     transition: 1s ease;
     color: #78779a;
-    mix-blend-mode: darken;
+    /*    mix-blend-mode: darken;*/
 }
 
 #logo {
@@ -154,35 +154,54 @@ section {
 }
 
 p {
-/*
+    /*
     padding-left: 37%;
     padding-right: 37%;
-*/
+    */
     padding-top: 50px;
     color: #78779a;
 }
 
 figure {
     display: block;
+    float: center;
     margin: auto;
     padding-top: 50px;
-    max-width: 700px;
+    max-width: 100%;
+}
+
+figure img {
+    display: block;
+    float: center;
+    margin: auto;
+    padding-top: 5px;
 }
 
 figcaption {
     font-size: 0.8em;
     font-style: italic;
+    text-align: center;
+    padding-top: 5px;
+}
+
+section figcaption {
+    font-size: 0.8em;
+    font-style: italic;
+    margin: auto;
+    float: center;
+    max-width: 440px;
+    padding-top: 5px;
 }
 
 nav ul {
     display: flex;
-/*
+    /*
     position: absolute;
     top: 0;
     left: 0;
-*/
-/*    width: 100%;*/
-/*    margin-left: -100%;*/
+    */
+    /*    width: 100%;*/
+    /*    margin-left: -100%;*/
     transition: 1s ease;
     padding-top: 50px;
 }
@@ -192,15 +211,23 @@ nav ul li a.active {
 }
 
 nav ul li a {
-/*    background: #cfc;*/
+    /*    background: #cfc;*/
     text-decoration: none;
     color: #78779a;
     padding-left: 3em;
-/*    text-align: center;*/
+    /*    text-align: center;*/
 }
 
 nav ul li a:hover{
     color: rgba(255, 221, 90, .75);
+}
+
+.map {
+    display: block;
+    float: center;
+    margin: auto;
+    width: 50%;
+    height: 500px;
 }
 
 footer {
@@ -228,6 +255,7 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 .opacity {
@@ -246,15 +274,15 @@ footer {
     nav ul {
         flex-direction: column;
     }
-/*
+    /*
     nav ul li a {
-        border-bottom: 1px solid gainsboro;
-    }
+    border-bottom: 1px solid gainsboro;
+}
     nav ul li:first-child a {
-        border-top: 1px solid gainsboro;
-    }
-*/
-    
+    border-top: 1px solid gainsboro;
+}
+    */
+
     nav a#hamburger.x div:nth-child(1) {
         position: absolute;
         top: 1.7em;
