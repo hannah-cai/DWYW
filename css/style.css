@@ -376,6 +376,8 @@ figure img.poster:first-child {
     float: center; 
     text-align: center; 
     margin-top: -25px;
+    text-decoration: none;
+    padding-top: none;
 }
 
 #logo a {
