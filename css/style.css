@@ -383,12 +383,13 @@ figure img.poster:first-child {
 }
 
 .landinglogo {
+    position: relative;
     display: block; 
     margin: auto; 
     float: center; 
     text-align: center; 
-    padding-top: 18%; 
     height: 300px;
+    z-index: 1;
 }
 
 @media screen and (max-width:1200px) {

@@ -14,7 +14,7 @@
         <script>
             $(document).ready(function() {
                 $("#logo").hover(function(){
-                $(".float").toggleClass('opacity');
+                    $(".float").toggleClass('opacity');
                 })
             })
         </script>
@@ -22,16 +22,9 @@
 
     </head>
     <body>
-        <!--        <h1>Hamburger Menu</h1>-->
-        <!--
-<a href="#" id="hamburger">
-<div></div>
-<div></div>
-<div></div>
-</a>
--->     <div style="position: fixed; opacity: 0.25">
-        <img src="landing-bg.png" width="90%" style="margin-top: -9.5%; margin-left: -1%">
-        </div>
+        <span style="position: fixed; opacity: 0.25">
+            <img src="landing-bg.png" width="90%" style="margin-top: -9.5%; margin-left: -1%; z-index: -1">
+        </span>       
         <div class="float" style="padding-top: 35%; padding-left: 85%">
             <img src="f1.png" height="200px">
         </div>
@@ -47,8 +40,8 @@
         <div class="float" style="padding-top: 5%; padding-left: 75%">
             <img src="f5.png" height="200px">
         </div>
-        <div id="logo">
-            <a href="composting-intro.html"><img src="logo-3.png" class="landinglogo"><figcaption id="clickhere">click here to continue to the site</figcaption></a>
+        <div style="padding-top: 18%">
+            <a href="composting-intro.html"><img src="logo-3.png" class="landinglogo" id="logo"><figcaption id="clickhere">click here to continue to the site</figcaption></a>
         </div>
         <!--
 <div class="float" style="display: block; margin: auto; float: center; text-align: center">
