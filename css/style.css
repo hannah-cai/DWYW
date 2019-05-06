@@ -394,6 +394,11 @@ figure img.poster:first-child {
     z-index: 1;
 }
 
+#landingclick {
+    text-decoration: none;
+    padding-top: none;
+}
+
 @media screen and (max-width:1200px) {
     
     nav ul {
