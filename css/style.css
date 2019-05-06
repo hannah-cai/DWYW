@@ -370,6 +370,23 @@ figure img.poster:first-child {
     opacity: 1;
 }
 
+#clickhere {
+    position: absolute; 
+    top: 0; 
+    left: 44%; 
+    display: block; 
+    margin: auto; 
+    float: center; 
+    text-align: center; 
+    margin-top: 34%;
+}
+
+@media screen and (max-width:1440px) {
+    #clickhere {
+        padding-top: 25px;
+    }
+}
+
 @media screen and (max-width:1200px) {
     
     nav ul {
