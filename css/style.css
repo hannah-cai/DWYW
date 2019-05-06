@@ -371,20 +371,24 @@ figure img.poster:first-child {
 }
 
 #clickhere {
-    position: absolute; 
-    top: 0; 
-    left: 44%; 
     display: block; 
     margin: auto; 
     float: center; 
     text-align: center; 
-    margin-top: 34%;
+    margin-top: -25px;
 }
 
-@media screen and (max-width:1440px) {
-    #clickhere {
-        padding-top: 25px;
-    }
+#logo a {
+    text-decoration: none;
+}
+
+.landinglogo {
+    display: block; 
+    margin: auto; 
+    float: center; 
+    text-align: center; 
+    padding-top: 18%; 
+    height: 300px;
 }
 
 @media screen and (max-width:1200px) {
@@ -472,10 +476,25 @@ figure img.poster:first-child {
 
 }
 
+@media screen and (max-width:1100px) {
+    .landinglogo {
+        height: 150px;
+    }
+    #clickhere {
+        padding-top: 30px;
+    }
+}
+
 @media screen and (max-width:500px) {
     .logo {
         height: 69px;
     }
+    
+    .landinglogo {
+        height: 100px;
+    }
+    
+
     
 /*
     nav ul li a {
